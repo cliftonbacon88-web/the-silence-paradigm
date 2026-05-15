@@ -16,20 +16,6 @@ This is a hypothesis-generating framework producing specific, falsifiable predic
 
 ---
 
-## Core Documents
-
-| Paper | Title | DOI |
-|-------|-------|-----|
-| Paper 1 | The Silence Paradigm — A Theoretical Framework for Consciousness-Dependent Quantum Decoherence | [10.5281/zenodo.19464692](https://doi.org/10.5281/zenodo.19464692) |
-| Paper 2 | The Silence Experiment — A Multi-State Protocol for Detecting Consciousness-Dependent Decoherence in Shielded Environments | [10.5281/zenodo.19464027](https://doi.org/10.5281/zenodo.19464027) |
-| Paper 3 | Shielded Chamber Design Specifications — Phase 0 Configuration (TSP-ENG-001 Rev B) | [10.5281/zenodo.19497749](https://doi.org/10.5281/zenodo.19497749) |
-
-**Pre-registration:** [OSF — 10.17605/OSF.IO/F658T](https://doi.org/10.17605/OSF.IO/F658T)
-
-All three PDFs are available in this repository and on Zenodo at the DOIs above.
-
----
-
 ## Repository Files (`/docs`)
 
 | File | Description |
