@@ -30,6 +30,17 @@ All three PDFs are available in this repository and on Zenodo at the DOIs above.
 
 ---
 
+## Repository Files (`/docs`)
+
+| File | Description |
+|------|-------------|
+| [TheSilenceParadigm_V8 copy.pdf](docs/TheSilenceParadigm_V8%20copy.pdf) | Paper 1 — Theoretical framework |
+| [TheSilenceExperiment_V10 copy.pdf](docs/TheSilenceExperiment_V10%20copy.pdf) | Paper 2 — Multi-state experimental protocol |
+| [Shielded Chamber Blueprint Phase0 RevB squares to 2 copy 2.pdf](docs/Shielded%20Chamber%20Blueprint%20Phase0%20RevB%20squares%20to%202%20copy%202.pdf) | Paper 3 — Phase 0 chamber blueprint (TSP-ENG-001 Rev B) |
+| [threejs_3d_ chamber.html](docs/threejs_3d_%20chamber.html) | Interactive 3D Phase 0 chamber visualization |
+
+---
+
 ## Key Specifications
 
 - **Independent variable:** Observer cognitive state (7 conditions, EEG-verified)
