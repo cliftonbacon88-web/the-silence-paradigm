@@ -35,8 +35,8 @@ This is a hypothesis-generating framework producing specific, falsifiable predic
 - **Primary sensor (Phase 1):** Superconducting transmon qubit, 15 mK
 - **Shielding:** Five-layer isolation (acoustic, magnetic, RF, vibration, Faraday) — >120 dB EM attenuation
 - **Chamber geometry:** 3.0 m × 3.0 m × 3.0 m cube with dual-door airlock
-- **Analysis:** Triple-blind, pre-registered, p < 0.001 threshold
-- **Phasing:** Micro-Pilot ($2–5K) → Phase 0 (€70–150K) → Phase 1 (€500K–2M)
+- **Analysis:** Blinding when feasable, pre-registered, p < 0.001 threshold
+
 
 ---
 
