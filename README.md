@@ -10,7 +10,7 @@ Clifton Bacon | April 2026 | Independent Research
 
 The Silence Paradigm is a pre-registered experimental research program investigating whether the cognitive state of a conscious observer — verified by real-time EEG — produces measurable changes in the decoherence time (T₂) of a nearby quantum system inside a five-layer shielded chamber.
 
-The protocol compares seven controlled consciousness conditions (three controls and four meditation states) using pre-registered statistical thresholds and triple-blind analysis. The multi-state design allows data to determine which state, if any, produces a measurable effect.
+The protocol compares seven controlled consciousness conditions (three controls and four meditation states) using pre-registered statistical thresholds and blinding where feasable. The multi-state design allows data to determine which state, if any, produces a measurable effect.
 
 This is a hypothesis-generating framework producing specific, falsifiable predictions. A null result is informative and publishable.
 
