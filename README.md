@@ -7,7 +7,6 @@ Clifton Bacon | April 2026 | Independent Research
 ---
 
 ## Overview
-![Uploading CEDF7468-456A-48D5-B757-B6FEEC865597.PNG…]()
 
 The Silence Paradigm is a pre-registered experimental research program investigating whether the cognitive state of a conscious observer — verified by real-time EEG — produces measurable changes in the decoherence time (T₂) of a nearby quantum system inside a five-layer shielded chamber.
 
