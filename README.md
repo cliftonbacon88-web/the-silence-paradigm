@@ -1,50 +1,79 @@
 # The Silence Paradigm
 
-**Testing whether consciousness state affects quantum decoherence rates under controlled shielded conditions.**
+**A Theoretical Framework and Experimental Protocol for Testing Consciousness-Dependent Effects on Quantum Decoherence**
 
-Clifton Bacon | April 2026 | Independent Research
+This repository contains the core documents for *The Silence Paradigm* project — an attempt to empirically investigate the role of the conscious observer in quantum measurement by treating the observer’s cognitive state as a controlled experimental variable inside an ultra-shielded environment.
 
 ---
 
 ## Overview
 
-The Silence Paradigm is a pre-registered experimental research program investigating whether the cognitive state of a conscious observer — verified by real-time EEG — produces measurable changes in the decoherence time (T₂) of a nearby quantum system inside a five-layer shielded chamber.
+For nearly a century, the measurement problem in quantum mechanics has left open the question of whether consciousness plays any role in the transition from quantum superposition to classical outcomes. Most experimental approaches have focused on adding energy or complexity to probe this boundary.
 
-The protocol compares seven controlled consciousness conditions (three controls and four meditation states) using pre-registered statistical thresholds and blinding where feasable. The multi-state design allows data to determine which state, if any, produces a measurable effect.
-
-This is a hypothesis-generating framework producing specific, falsifiable predictions. A null result is informative and publishable.
+**The Silence Paradigm** proposes the opposite approach: *subtracting* both physical energy (through extreme environmental isolation) and cognitive energy (through highly refined states of consciousness). The central hypothesis is that when a trained observer enters states of minimal cognitive excitation — particularly Minimal Phenomenal Experience (MPE) and full cessation — measurable changes may appear in the decoherence behavior of a nearby quantum system.
 
 ---
 
-## Repository Files (`/docs`)
+## Core Documents
 
-| File | Description |
-|------|-------------|
-| [TheSilenceParadigm_V8 copy.pdf](docs/TheSilenceParadigm_V8%20copy.pdf) | Paper 1 — Theoretical framework |
-| [TheSilenceExperiment_V10 copy.pdf](docs/TheSilenceExperiment_V10%20copy.pdf) | Paper 2 — Multi-state experimental protocol |
-| [Shielded Chamber Blueprint Phase0 RevB squares to 2 copy 2.pdf](docs/Shielded%20Chamber%20Blueprint%20Phase0%20RevB%20squares%20to%202%20copy%202.pdf) | Paper 3 — Phase 0 chamber blueprint (TSP-ENG-001 Rev B) |
-| [threejs_3d_ chamber.html](docs/threejs_3d_%20chamber.html) | Interactive 3D Phase 0 chamber visualization |
+| Document | Description | Version |
+|---------|-------------|---------|
+| **[The Silence Paradigm](TheSilenceParadigm_V10.pdf)** | Theoretical framework and motivation. Introduces the paradigm shift from adding energy to subtracting it, and derives the primary falsifiable predictions. | V10 |
+| **[The Silence Experiment](TheSilenceExperiment_V12.pdf)** | Detailed experimental protocol, including the seven consciousness conditions (C1–C7), pre-registered statistical plan, Phase 0/Phase 1 structure, and blinding procedures. | V12 |
+| **[Shielded Chamber Blueprint](Shielded_Chamber_Blueprint_V4.pdf)** | Engineering specifications for the five-layer isolation chamber required to make any consciousness-dependent signal interpretable. | V4 |
 
 ---
 
-## Key Specifications
+## Key Concepts
 
-- **Independent variable:** Observer cognitive state (7 conditions, EEG-verified)
-- **Dependent variable:** Decoherence time T₂ of quantum sensor
-- **Primary sensor (Phase 0):** NV-center in diamond, room temperature
-- **Primary sensor (Phase 1):** Superconducting transmon qubit, 15 mK
-- **Shielding:** Five-layer isolation (acoustic, magnetic, RF, vibration, Faraday) — >120 dB EM attenuation
-- **Chamber geometry:** 3.0 m × 3.0 m × 3.0 m cube with dual-door airlock
-- **Analysis:** Blinding when feasable, pre-registered, p < 0.001 threshold
-
+- **Inverted Experimental Logic**: Instead of increasing energy to probe reality, deliberately reduce both environmental noise *and* the observer’s cognitive excitation.
+- **Controlled Consciousness Variable**: Seven EEG-verified states ranging from active cognition (C1) to full cessation/objectless awareness (C7).
+- **Primary Prediction**: Decoherence times (T₂) are expected to increase at C6 (Minimal Phenomenal Experience) and especially at C7 (Cessation), relative to baseline and shallower states.
+- **Two Pre-registered Planned Contrasts**:
+  1. [C6 + C7] vs. [Chamber baseline + C1–C5]
+  2. C7 vs. C6
+- **Phase 0**: Uses nitrogen-vacancy (NV) centers in diamond as the quantum sensor in a highly controlled shielded environment.
+- **Phase 1**: Scaled version using superconducting qubits in an underground laboratory (conditional on Phase 0 results).
 
 ---
 
 ## Current Status
 
-Pre-experimental phase. All three concept papers published on Zenodo with assigned DOIs. Full protocol pre-registered on OSF prior to any data collection. Micro-Pilot study in preparation.
+These are **concept papers** — not yet peer-reviewed.  
+The project is currently in the design and fundraising phase. Phase 0 is scoped as a foundational test (~$420k–$470k) using NV-center technology.
+
+Null results are considered scientifically valuable, as they would establish pre-registered upper bounds on any consciousness-dependent effect under rigorously controlled conditions.
 
 ---
+
+## Repository Structure
+
+├── TheSilenceParadigm_V10.pdf          # Theoretical framework
+├── TheSilenceExperiment_V12.pdf        # Experimental protocol
+├── Shielded_Chamber_Blueprint_V4.pdf   # Engineering specifications
+└── README.md
+
+
+---
+
+## Citation
+
+If you reference this work, please cite the individual papers:
+
+> Bacon, C. (2026). *The Silence Paradigm: A Theoretical Framework and Protocol for Testing the von Neumann–Wigner Interpretation Using Controlled Observer States in Shielded Environments* (Version 10). Concept Paper.
+
+> Bacon, C. (2026). *The Silence Experiment: A Multi-State Protocol for Detecting Consciousness-Dependent Decoherence in Shielded Environments* (Version 12). Concept Paper.
+
+---
+
+## Contact & Discussion
+
+This project is open for serious scientific discussion.  
+For questions, feedback, or collaboration inquiries, please open an issue or contact the author directly.
+
+---
+
+*“When a conscious observer approaches a state of minimum cognitive excitation inside an environment of maximum physical silence, the resulting conditions may produce measurable differences in quantum decoherence rates.”*
 
 ## Links
 
