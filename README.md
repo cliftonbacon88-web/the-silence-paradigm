@@ -18,9 +18,9 @@ For nearly a century, the measurement problem in quantum mechanics has left open
 
 | Document | Description | Version |
 |---------|-------------|---------|
-| **[The Silence Paradigm](TheSilenceParadigm_V10.pdf)** | Theoretical framework and motivation. Introduces the paradigm shift from adding energy to subtracting it, and derives the primary falsifiable predictions. | V10 |
-| **[The Silence Experiment](TheSilenceExperiment_V12.pdf)** | Detailed experimental protocol, including the seven consciousness conditions (C1–C7), pre-registered statistical plan, Phase 0/Phase 1 structure, and blinding procedures. | V12 |
-| **[Shielded Chamber Blueprint](Shielded_Chamber_Blueprint_V4.pdf)** | Engineering specifications for the five-layer isolation chamber required to make any consciousness-dependent signal interpretable. | V4 |
+| **[The Silence Paradigm](docs/TheSilenceParadigm%20V12.pdf)** | Theoretical framework and motivation. Introduces the paradigm shift from adding energy to subtracting it, and derives the primary falsifiable predictions. | V12 |
+| **[The Silence Experiment](docs/TheSilenceExperiment%20V16.pdf)** | Detailed experimental protocol, including the seven consciousness conditions (C1–C7), pre-registered statistical plan, Phase 0/Phase 1 structure, and blinding procedures. | V16 |
+| **[Shielded Chamber Blueprint](docs/Shielded%20Chamber%20Blueprint%20V6.pdf)** | Engineering specifications for the five-layer isolation chamber required to make any consciousness-dependent signal interpretable. | V6 |
 
 ---
 
@@ -48,9 +48,10 @@ Null results are considered scientifically valuable, as they would establish pre
 
 ## Repository Structure
 
-├── TheSilenceParadigm_V10.pdf          # Theoretical framework
-├── TheSilenceExperiment_V12.pdf        # Experimental protocol
-├── Shielded_Chamber_Blueprint_V4.pdf   # Engineering specifications
+├── docs/
+│   ├── TheSilenceParadigm V12.pdf          # Theoretical framework
+│   ├── TheSilenceExperiment V16.pdf        # Experimental protocol
+│   └── Shielded Chamber Blueprint V6.pdf   # Engineering specifications
 └── README.md
 
 
@@ -60,9 +61,9 @@ Null results are considered scientifically valuable, as they would establish pre
 
 If you reference this work, please cite the individual papers:
 
-> Bacon, C. (2026). *The Silence Paradigm: A Theoretical Framework and Protocol for Testing the von Neumann–Wigner Interpretation Using Controlled Observer States in Shielded Environments* (Version 10). Concept Paper.
+> Bacon, C. (2026). *The Silence Paradigm: A Theoretical Framework and Protocol for Testing the von Neumann–Wigner Interpretation Using Controlled Observer States in Shielded Environments* (Version 12). Concept Paper.
 
-> Bacon, C. (2026). *The Silence Experiment: A Multi-State Protocol for Detecting Consciousness-Dependent Decoherence in Shielded Environments* (Version 12). Concept Paper.
+> Bacon, C. (2026). *The Silence Experiment: A Multi-State Protocol for Detecting Consciousness-Dependent Decoherence in Shielded Environments* (Version 16). Concept Paper.
 
 ---
 
