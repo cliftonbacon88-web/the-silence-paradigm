@@ -2,7 +2,7 @@
 
 **A Theoretical Framework and Experimental Protocol for Testing Consciousness-Dependent Effects on Quantum Decoherence**
 
-This repository contains the core documents for *The Silence Paradigm* project — an attempt to empirically investigate the role of the conscious observer in quantum measurement by treating the observer’s cognitive state as a controlled experimental variable inside an ultra-shielded environment.
+This repository contains the core documents for *The Silence Paradigm* project. An attempt to empirically investigate the role of the conscious observer in quantum measurement by treating the observer’s cognitive state as a controlled experimental variable inside an ultra-shielded environment.
 
 ---
 
