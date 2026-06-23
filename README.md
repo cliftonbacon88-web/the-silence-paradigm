@@ -10,7 +10,7 @@ This repository contains the core documents for *The Silence Paradigm* project. 
 
 For nearly a century, the measurement problem in quantum mechanics has left open the question of whether consciousness plays any role in the transition from quantum superposition to classical outcomes. Most experimental approaches have focused on adding energy or complexity to probe this boundary.
 
-**The Silence Paradigm** proposes the opposite approach: *subtracting* both physical energy (through extreme environmental isolation) and cognitive energy (through highly refined states of consciousness). The central hypothesis is that when a trained observer enters states of minimal cognitive excitation — particularly Minimal Phenomenal Experience (MPE) and full cessation — measurable changes may appear in the decoherence behavior of a nearby quantum system.
+**The Silence Paradigm** proposes the opposite approach: *subtracting* both physical energy (through extreme environmental isolation) and cognitive energy (through highly refined states of consciousness). The central hypothesis is that when a trained observer enters states of minimal cognitive excitation, particularly Minimal Phenomenal Experience (MPE) and full cessation, measurable changes may appear in the decoherence behavior of a nearby quantum system.
 
 ---
 
