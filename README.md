@@ -1,87 +1,81 @@
 # The Silence Paradigm
 
-**A Theoretical Framework and Experimental Protocol for Testing Consciousness-Dependent Effects on Quantum Decoherence**
+**A pre-registered test of whether an observer's state of mind affects quantum coherence.**
 
-This repository contains the core documents for *The Silence Paradigm* project. An attempt to empirically investigate the role of the conscious observer in quantum measurement by treating the observer’s cognitive state as a controlled experimental variable inside an ultra-shielded environment.
+[![OSF pre-registration](https://img.shields.io/badge/OSF-pre--registered-2a2e37)](https://doi.org/10.17605/OSF.IO/F658T)
+[![Zenodo](https://img.shields.io/badge/Zenodo-archived-2a2e37)](https://doi.org/10.5281/zenodo.22699500)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-2a2e37)](https://creativecommons.org/licenses/by/4.0/)
 
----
+The Silence Experiment measures the coherence time T₂ of a single nitrogen-vacancy (NV) centre in diamond inside a five-layer shielded chamber, while an experienced meditator seated 1.0 to 1.5 m away moves through seven EEG-verified states, from ordinary thinking down to pure awareness and cessation.
 
-## Overview
+The question is old: does the conscious observer play any role in quantum mechanics, as von Neumann and Wigner proposed, or is decoherence the whole story? The approach is new. Most experiments add energy to probe that boundary. This one takes energy away, from the environment through shielding and from the observer through trained stillness, and asks whether anything changes.
 
-For nearly a century, the measurement problem in quantum mechanics has left open the question of whether consciousness plays any role in the transition from quantum superposition to classical outcomes. Most experimental approaches have focused on adding energy or complexity to probe this boundary.
-
-**The Silence Paradigm** proposes the opposite approach: *subtracting* both physical energy (through extreme environmental isolation) and cognitive energy (through highly refined states of consciousness). The central hypothesis is that when a trained observer enters states of minimal cognitive excitation, particularly Minimal Phenomenal Experience (MPE) and full cessation, measurable changes may appear in the decoherence behavior of a nearby quantum system.
-
----
-
-## Core Documents
-
-| Document | Description | Version |
-|---------|-------------|---------|
-| **[The Silence Paradigm](docs/TheSilenceParadigm%20V12.pdf)** | Theoretical framework and motivation. Introduces the paradigm shift from adding energy to subtracting it, and derives the primary falsifiable predictions. | V12 |
-| **[The Silence Experiment](docs/TheSilenceExperiment%20V16.pdf)** | Detailed experimental protocol, including the seven consciousness conditions (C1–C7), pre-registered statistical plan, Phase 0/Phase 1 structure, and blinding procedures. | V16 |
-| **[Shielded Chamber Blueprint](docs/Shielded%20Chamber%20Blueprint%20V6.pdf)** | Engineering specifications for the five-layer isolation chamber required to make any consciousness-dependent signal interpretable. | V6 |
+The prediction, its sign, the analysis and the failure condition were all registered on OSF before any data exist. A null is the expected result, and the design publishes it as an upper bound.
 
 ---
 
-## Key Concepts
+## The design in brief
 
-- **Inverted Experimental Logic**: Instead of increasing energy to probe reality, deliberately reduce both environmental noise *and* the observer’s cognitive excitation.
-- **Controlled Consciousness Variable**: Seven EEG-verified states ranging from active cognition (C1) to full cessation/objectless awareness (C7).
-- **Primary Prediction**: Decoherence times (T₂) are expected to increase at C6 (Minimal Phenomenal Experience) and especially at C7 (Cessation), relative to baseline and shallower states.
-- **Two Pre-registered Planned Contrasts**:
-  1. [C6 + C7] vs. [Chamber baseline + C1–C5]
-  2. C7 vs. C6
-- **Phase 0**: Uses nitrogen-vacancy (NV) centers in diamond as the quantum sensor in a highly controlled shielded environment.
-- **Phase 1**: Scaled version using superconducting qubits in an underground laboratory (conditional on Phase 0 results).
-
----
-
-## Current Status
-
-These are **concept papers** — not yet peer-reviewed.  
-The project is currently in the design and fundraising phase. Phase 0 is scoped as a foundational test (~$420k–$470k) using NV-center technology.
-
-Null results are considered scientifically valuable, as they would establish pre-registered upper bounds on any consciousness-dependent effect under rigorously controlled conditions.
+| | |
+|---|---|
+| **Sensor** | Single NV centre, natural-abundance CVD diamond, room temperature, Hahn-echo T₂ |
+| **Variable** | Seven EEG-verified states, C1 (active self-referential thought) to C7 (cessation) |
+| **Controls** | Empty-chamber baseline, plus a thermal-dummy cell with a 100 W occupant simulator |
+| **Chamber** | Five layers: acoustic and thermal liner, dual mu-metal, welded copper RF enclosure, vibration isolation, outer shell |
+| **Monitoring** | Magnetic field (fluxgate and SQUID), temperature, vibration, RF, CO₂, optical and microwave power, all on one time base |
+| **Primary tests** | Ordered trend across C1 to C7, Contrast 1 ([C6, C7] vs [baseline, C1 to C5]), Contrast 2 (C7 vs C6), family-wise α = 0.005 one-sided |
+| **Prediction** | Protective: T₂ in the deepest states exceeds the empty chamber |
+| **Phase 1** | Isotopically purified ¹²C diamond and dynamical-decoupling noise spectroscopy, separately pre-registered |
+| **Estimated cost** | About $470,000 (range $420,000 to $490,000) |
 
 ---
 
-## Repository Structure
+## Documents
 
-├── docs/
-│   ├── TheSilenceParadigm V12.pdf          # Theoretical framework
-│   ├── TheSilenceExperiment V16.pdf        # Experimental protocol
-│   └── Shielded Chamber Blueprint V6.pdf   # Engineering specifications
-└── README.md
+| Document | What it is | DOI |
+|---|---|---|
+| [The Silence Paradigm](docs/TheSilenceParadigm.pdf) | Paper 1. The theoretical framework and its falsifiable predictions | [10.5281/zenodo.22699500](https://doi.org/10.5281/zenodo.22699500) |
+| [The Silence Experiment](docs/TheSilenceExperiment.pdf) | Paper 2. The full protocol: conditions, analysis plan, power, stopping rules, budget | [10.5281/zenodo.22699508](https://doi.org/10.5281/zenodo.22699508) |
+| [Shielded Chamber Blueprint](docs/Shielded_Chamber_Blueprint.pdf) | Engineering specification for the five-layer chamber (TSP-ENG-001) | [10.5281/zenodo.22699492](https://doi.org/10.5281/zenodo.22699492) |
+| [Phase 0 Power Analysis](docs/Phase0_Power_Analysis.pdf) and [Study Design Table](docs/Study_Design_Table.pdf) | Statistical methods companion | [10.5281/zenodo.22699480](https://doi.org/10.5281/zenodo.22699480) |
+| [Reviewers' FAQ](docs/Reviewers_FAQ.pdf) | Twenty steel-manned objections to the design, and the answers | |
+| [The Observer State](docs/The_Observer_State.pdf) | A conditional engineering analysis: what a replicated positive result would mean for quantum computing | |
+| Pre-registration | The protocol as registered before data collection | [10.17605/OSF.IO/F658T](https://doi.org/10.17605/OSF.IO/F658T) |
 
+---
+
+## Where things stand
+
+- **Pre-registered.** The protocol is locked on OSF. Any change is made by a dated amendment before data, never after.
+- **Not yet built.** The project is looking for a host laboratory with NV-centre capability.
+- **Reviewed in public.** The design has been revised in response to questions from physicists working in NV sensing, magnetic shielding and magnetoencephalography. The Reviewers' FAQ records the hardest objections and how the design answers them.
+- **Contemplative side underway.** Self-recorded EEG of the deep states begins this autumn, to document how reliably each state can be reached before any chamber time is spent.
+- **Not peer reviewed.** These are concept papers.
+
+---
+
+## Why a null is worth publishing
+
+For a century, effects claimed for the mind on physical systems have shrunk as experiments got more careful. This protocol starts careful. If nothing happens, the result is a published upper bound on any consciousness-dependent effect on a solid-state spin, under the most controlled conditions yet specified, with the deepest observer states yet tested. If something does happen, the registration shows it was predicted, in sign, before anyone looked.
 
 ---
 
 ## Citation
 
-If you reference this work, please cite the individual papers:
+> Bacon, C. (2026). *The Silence Paradigm: A theoretical framework and protocol for testing the von Neumann–Wigner interpretation using controlled observer states in shielded environments.* Zenodo. https://doi.org/10.5281/zenodo.22699500
 
-> Bacon, C. (2026). *The Silence Paradigm: A Theoretical Framework and Protocol for Testing the von Neumann–Wigner Interpretation Using Controlled Observer States in Shielded Environments* (Version 12). Concept Paper.
-
-> Bacon, C. (2026). *The Silence Experiment: A Multi-State Protocol for Detecting Consciousness-Dependent Decoherence in Shielded Environments* (Version 16). Concept Paper.
+> Bacon, C. (2026). *The Silence Experiment: A multi-state protocol for detecting consciousness-dependent decoherence in shielded environments.* Zenodo. https://doi.org/10.5281/zenodo.22699508
 
 ---
 
-## Contact & Discussion
+## Contact
 
-This project is open for serious scientific discussion.  
-For questions, feedback, or collaboration inquiries, please open an issue or contact the author directly.
+Questions, objections and offers to host are all welcome. Open an issue, or write directly.
 
----
-
-*“When a conscious observer approaches a state of minimum cognitive excitation inside an environment of maximum physical silence, the resulting conditions may produce measurable differences in quantum decoherence rates.”*
-
-## Links
-
-- **Website:** [thesilenceparadigm.org](https://thesilenceparadigm.org)
+- **Website:** [thesilenceparadigm.com](https://thesilenceparadigm.com)
 - **ORCID:** [0009-0002-3904-8557](https://orcid.org/0009-0002-3904-8557)
-- **Contact:** cliftonbacon88@gmail.com
+- **Email:** cliftonbacon88@gmail.com
 
 ---
 
-© 2026 Clifton Bacon. All papers licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+© 2026 Clifton Bacon. Papers licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
